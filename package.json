@@ -2,15 +2,18 @@
   "name": "cal-ui-theme",
   "version": "1.0.0",
   "description": "Cal ui angular material based theme",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/noah2233/cal-ui-theme.git"
   },
-  "homepage": "https://github.com/noah2233/-theme",
-  "scripts": {},
+  "homepage": "https://github.com/noah2233/cal-ui-theme",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
   "keywords": [],
   "author": "CAL",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
