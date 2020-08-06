@@ -8,17 +8,9 @@
     "url": "https://github.com/noah2233/cal-ui-theme.git"
   },
   "homepage": "https://github.com/noah2233/-theme",
-  "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "CAL",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^4.2.2"
-  }
+  "devDependencies": {}
 }
