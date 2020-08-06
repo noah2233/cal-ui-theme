@@ -1,6 +1,6 @@
 const common = require("./webpack.common");
+const webpackMerge = require("webpack-merge");
 
-module.exports = {
+module.exports = webpackMerge(common, {
   mode: "production",
-  entry: "./src/index.js",
-};
+});
